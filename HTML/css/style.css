@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:"Times New Roman", Times, serif;}
+*{margin:0px;padding:0px;transition:all 0.5s;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-ms-transition:all 0.5s;-o-transition:all 0.5s;}
+.cornerNav{border-radius:6px 6px 0px 0px;}
+.corner{border-radius:6px;}
+.corner2,.readmoreBtn{border-radius:3px;}
+.cornerWidCont{border-radius:0px 6px 6px 6px;}
+.headerContainer{width:100%;height:137px;background:url(../images/headerbg.png) top left repeat-x;}
+.container{width:940px;margin:0px auto;}
+.header{}
+.logo{width:419px;height:80px;background:url(../images/logo.png) top left no-repeat;}
+.navBar{margin-top:20px;}
+.navBar ul{display:block}
+.navBar ul li{ display:inline;margin:0px 5px}
+.navBar ul li a{color:#001c3f;text-decoration:none;font-weight:bold;padding:6px 16px 15px 16px;font-size:18px;border-radius:6px 6px 0px 0px;}
+.navBar ul li a:hover,#body .navBar ul li a.active{background:#001c3f;color:#ff5a00}
+.contentContainer{width:100%;height:auto;background:url(../images/bannerBgStrip.png) top left repeat-x;min-height:500px;height:auto;overflow:auto}
+.bannerContainer{height:341px;margin-top:10px;background:url(../images/shadow.jpg) bottom left no-repeat;padding-bottom:15px;}
+.bjqs{border:1px solid  #ccc}
+.orangeColor{color:#F11800}
+.blueColor{color:#001c3f;}
+.hightlightText{background:url(../images/headerLine.jpg) bottom left no-repeat;height:60px;}
+.hightlightText h3{text-align:center;text-transform:uppercase;padding:10px}
+.hightlightTextInner{background:url(../images/divi.png) bottom left no-repeat;height:60px;}
+.hightlightTextInner h3{text-align:center;text-transform:uppercase;padding:10px}
+.widgetContainer{margin-top:30px;padding-bottom:30px;height:auto;overflow:auto;background:url(../images/headerLine.jpg) bottom left no-repeat;}
+.wheader{background:url(../images/widgetHeaderBg.jpg) bottom left repeat-x; width:60%;height:55px;}
+.widget{width:32%;margin-right:2%;float:left;}
+.marginClear{margin:0px;}
+.wcontent{height:367px;background:#012840}
+.widget .wcontent{padding:4%;}
+.widget .wcontent img{border:4px solid #fff;min-width:0%;max-width:97%;}
+.widget .wcontent p{color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:13px;text-align:justify;margin-top:20px;line-height:22px;height:110px;overflow:hidden;margin-bottom:25px;}
+.widget .wcontent a.readmoreBtn{float:right;background:url(../images/btnBg.jpg) top left repeat-x;color:#fff;text-decoration:none;font-size: 11px;padding: 3px 10px;font-family:Arial, Helvetica, sans-serif;}
+.widget .wcontent a.readmoreBtn:hover{background:url(../images/btnBgh.jpg) top left repeat-x;}
+.wheader h4{color:#fff; font-size:21px; padding-left:10px;padding-top:5px;}
+.wheader span{font-family:Arial, Helvetica, sans-serif;color:#CCC;font-size:10px;margin-left:10px}
+.latestWorks{height:auto;padding-bottom:25px;background:url(../images/headerLine.jpg) bottom left no-repeat;}
+.latestWorks .lheader{background:#ff5a00;padding:10px;font-size:26px;font-weight:bold;color:#fff;width:19%;text-align:center;}
+.latestWorks .lholder{border:4px solid #ff5a00; width:100%;height:233px;}
+.socialWidget img{margin-top: -10px;vertical-align: middle;}
+.socialWidget p{width:100%;color:#444;}
+.socialWidget{font-family:Arial, Helvetica, sans-serif;width:40%;float:right;margin-top:10px}
+.footer{width:100%;height:65px;background:#012840;border-top:3px solid #ff5a00;margin-top:10px}
+.footerContainer ul{float:right;margin-top:-21px}
+.footerContainer ul li{display:inline;margin:0px 5px;}
+.footerContainer ul li a{text-transform:uppercase;font-size:10px;color:#fff;text-decoration:none;font-weight:bold}
+.footerContainer ul li a:hover{color:#F60;}
+.footerContainer p{margin-top:25px;font-size:14px;color:#f6530b;}
+.innerBannerHolder{height:198px;padding-bottom:20px;background:url(../images/shadow.png) bottom center no-repeat;}
+.innerBanner{background:url(../images/innerBanner.jpg) top left no-repeat;height:198px}
+.innerPageHeader h3{font-size:24px;text-align:left}
+.leftContainer{float:left;width:629px;margin-right:16px}
+.leftContainer p{font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#001c3f;text-align:justify;margin-bottom:10px;line-height:22px;margin-top:10px}
+.leftContainer h1,.leftContainer h2,.leftContainer h3, .leftContainer h4, .leftContainer h5 ,.leftContainer h6{color:#001c3f}
+.rightContainer{width:295px;background:#ff5a00;float:left;position:relative;transition:all 0s;}
+.rightContainer h1{font-size:22px;padding-left:10px;padding-top:10px;color:#fff;}
+.quickBox{background:#fff;margin:10px;height:auto;padding:10px 0px;}
+.quickBox ul{margin-left:30px;}
+.quickBox ul li{list-style-image:url(../images/bullet.png);line-height:26px;}
+.quickBox ul li a{ text-decoration:none;color:#001c3f}
+.quickBox ul li a:hover{color:#FF5A00;}
